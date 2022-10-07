@@ -1,6 +1,6 @@
 import EventPractice from "./EventPractice3";
 
-// onChange 설정
+// onChange 이벤트 수정
 function App() {
   return (
 <EventPractice />

@@ -1,6 +1,7 @@
 import EventPractice from "./EventPractice9";
 
-/* 함수 컴포넌트로 구현해보기
+/* onKeyPress 이벤트 핸들링
+  Enter 키를 눌렀을 때 handleClick 메서드를 호출하기
 */
 
 function App() {
