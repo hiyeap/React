@@ -1,4 +1,4 @@
-function App() {
+function App1() {
   return (
     <div>
       Hello <b>react</b>
@@ -12,4 +12,4 @@ function App(){
 }
 */
 
-export default App;
+export default App1;

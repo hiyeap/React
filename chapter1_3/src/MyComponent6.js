@@ -27,7 +27,7 @@ MyComponent.propTypes = {
 };
 */
 
-class MyComponent extends Component {
+class MyComponent6 extends Component {
   static defaultProps = {
     name: "기본 이름",
   };
@@ -49,4 +49,4 @@ class MyComponent extends Component {
   }
 }
 
-export default MyComponent;
+export default MyComponent6;

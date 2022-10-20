@@ -1,4 +1,4 @@
-import Say from './Say';
+import Say from "./Say";
 
 /* 배열 비구조화 할당
 const array = [1,2];
@@ -10,8 +10,8 @@ const [one,two] = array;
 */
 
 // useState 사용하기
-const App = ()=>{
+function App23() {
   return <Say />;
 };
 
-export default App;
+export default App23;

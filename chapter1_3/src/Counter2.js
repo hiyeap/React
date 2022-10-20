@@ -1,5 +1,5 @@
 import { Component } from "react";
-class Counter extends Component {
+class Counter2 extends Component {
     // 1. constructor를 정의하여 state의 초깃값을 설정
   constructor(props) {
     super(props);
@@ -34,4 +34,4 @@ class Counter extends Component {
   }
 }
 
-export default Counter;
+export default Counter2;

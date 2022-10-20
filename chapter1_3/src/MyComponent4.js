@@ -1,4 +1,4 @@
-/* const MyComponent = (props) => {
+/* const MyComponent4 = (props) => {
   const { name, children } = props;
   return (
     <div>
@@ -9,7 +9,7 @@
   );
 }; */
 
-const MyComponent = ({ name, children }) => {
+const MyComponent4 = ({ name, children }) => {
   return (
     <div>
       안녕하세요, 제 이름은 {name}입니다.
@@ -19,8 +19,8 @@ const MyComponent = ({ name, children }) => {
   );
 };
 
-MyComponent.defaultProps = {
+MyComponent4.defaultProps = {
   name: "기본 이름",
 };
 
-export default MyComponent;
+export default MyComponent4;

@@ -1,5 +1,5 @@
 // 자바스크립트 표현식을 작성하려면 JSX 내부에서 코드를 {}로 감싸기
-function App() {
+function App7() {
   const name = "리액트";
   const style = {
     // background-color는 backgroundColor와 같이 -가 사라지고 카멜표기법으로 작성
@@ -12,4 +12,4 @@ function App() {
   return <div style={style}>{name}</div>;
 }
 
-export default App;
+export default App7;

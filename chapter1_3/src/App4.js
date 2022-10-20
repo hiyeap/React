@@ -1,5 +1,5 @@
 // JSX 내부의 자바스크립트 표현식에서는 if문을 사용할 수 없다.
-function App() {
+function App4() {
   const name = "리액트";
   return (
     <>
@@ -11,7 +11,7 @@ function App() {
 /* AND(&&) 연산자를 사용한 조건부 렌더링
 null을 렌더링하면 아무것도 보여주지 않는다
 
-function App() {
+function App4() {
   const name = "뤼액트";
   return (
     <>
@@ -21,4 +21,4 @@ function App() {
 }
 */
 
-export default App;
+export default App4;

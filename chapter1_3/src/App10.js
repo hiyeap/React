@@ -1,6 +1,6 @@
 import "./App.css";
 
-function App() {
+function App10() {
   const name = "리액트";
   return (
     <>
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default App10;
