@@ -31,8 +31,9 @@ Did : 어떤 작업을 작동한 후에 실행
 * 업데이트할 때 호출하는 메서드
 1. 업데이트를 발생시키는 요인(props 변경, state 변경, 부모 컴포넌트 리렌더링)
 -> 2. getDerivedStateFormProps : props의 변화에 따라 state 값에도 변화를 주고 싶을 때
--> 3. shouldComponentUpdate : 컴포넌트가 리렌더링을 할지 말지 결정(true값을 반환하면 다음 라이프사이클 메서드를 계속 실행, false를 반환하면 작업을 중지)
--> 4. render : 컴포넌트를 리렌더링
+-> 3. shouldComponentUpdate : 컴포넌트가 리렌더링을 할지 말지 결정
+    (true값을 반환하면 다음 라이프사이클 메서드를 계속 실행, false를 반환하면 작업을 중지)
+-> 4. render : 컴포넌트를 리렌더링 <--- forceUpdate
 -> 5. getSnapshotBeforeUpdate : 컴포넌트의 변화를 DOM에 반영하기 바로 직전에 호출
 -> 6. componentDidUpdate : 컴포넌트의 업데이트 작업이 끝난 후
 
