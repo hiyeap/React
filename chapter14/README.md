@@ -4,6 +4,8 @@
 ``` yarn add axios ```
 3. newsapi API 키 발급받기
 4. 뉴스 뷰어 UI 만들기
+``` yarn add styled-components ```
 5. 데이터 연동하기
 6. 카테고리 기능 구현하기
 7. 리액트 라우터 적용하기
+``` yarn add react-router-dom ```
